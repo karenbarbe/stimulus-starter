@@ -6,6 +6,40 @@
   <script src="bundle.js" async></script>
 </head>
 <body>
-  <h1 data-controller="example"></h1>
+  <!-- Hello Controller -->
+  <!-- <div data-controller="hello">
+    <input data-hello-target="name" type="text">
+    <button data-action="click->hello#greet">Greet</button>
+  </div>
+  <h1 data-controller="example"></h1> -->
+
+  <!-- Clipboard Controller -->
+  <!-- <div data-controller="clipboard" data-clipboard-supported-class="clipboard--supported">
+    PIN: <input data-clipboard-target="source" type="text" value="1234" readonly />
+    <button data-action="clipboard#copy" class="clipboard-button">Copy to Clipboard</button>
+  </div>
+
+  <div data-controller="clipboard">
+    PIN: <textarea data-clipboard-target="source" readonly>3737</textarea>
+    <a href="#" data-action="clipboard#copy">Copy to Clipboard</a>
+  </div> -->
+
+  <!-- Slideshow Controller -->
+   <!-- <div data-controller="slideshow" data-slideshow-index-value="0">
+    <button data-action="slideshow#previous"> ← </button>
+    <button data-action="slideshow#next"> → </button>
+
+    <div data-slideshow-target="slide">🐵</div>
+    <div data-slideshow-target="slide">🙈</div>
+    <div data-slideshow-target="slide">🙉</div>
+    <div data-slideshow-target="slide">🙊</div>
+   </div> -->
+
+   <!-- Content Loader Controller -->
+    <div data-controller="content-loader"
+        data-content-loader-url-value="/messages.html"
+        data-content-loader-refresh-interval-value="5000">
+    </div>
+
 </body>
 </html>
